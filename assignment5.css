@@ -1,0 +1,77 @@
+/* Name : Kanishk Sachdeva
+Id : 301182362 */
+
+body {
+    background-image: linear-gradient(#00c3ff, #ffff1c);
+}
+
+h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    font-style: italic;
+}
+
+#totalScore {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2em;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-color: blanchedalmond;
+    background-color: #fff;
+    padding: 0.2em 1.1em;
+}
+
+.button3 {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #000;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+#container {
+    margin-bottom: -40px;
+}
+
+.button3:hover {
+    background-color: #4095c6;
+}
+
+@media all and (max-width:30em) {
+    .button3 {
+        display: block;
+        margin: 0.2em auto;
+    }
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    padding: 1px;
+    margin-top: -40px;
+    clear: both;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+}
